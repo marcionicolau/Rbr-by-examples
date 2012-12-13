@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>
+            http://marcionicolau.github.com/Rbr-by-examples/blog/2012/12/13/shiny-the-future-in-r-web-apps-development/
+        </loc>
+        <lastmod>2012-12-13T21:50:12-02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://marcionicolau.github.com/Rbr-by-examples/blog/archives/</loc>
+        <lastmod>2012-12-13T21:50:12-02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://marcionicolau.github.com/Rbr-by-examples/</loc>
+        <lastmod>2012-12-13T21:50:12-02:00</lastmod>
+    </url>
+</urlset>
