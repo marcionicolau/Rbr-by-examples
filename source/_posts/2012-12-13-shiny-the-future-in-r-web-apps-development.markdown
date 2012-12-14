@@ -10,7 +10,7 @@ categories: [shiny, web, R]
 
 The last service/server that I worked was _Opencpu_ and now, after play with shiny for a while, I could say: "It's really easy to use and well done!".
 
-See more about shiny at:
+See the shiny package description:
 
 {% blockquote Source http://www.rstudio.com/shiny/ RStudio - Shiny %}
 Easy web applications in R
@@ -20,13 +20,6 @@ Shiny makes it super simple for R users like you to turn analyses into interacti
 No HTML or JavaScript knowledge is necessary. If you have some experience with R, you're just minutes away from combining the statistical power of R with the simplicity of a web page.
 {% endblockquote %}
 
-A toy package with some extensions and examples: {% github marcionicolau/shinyExt 4f89a7f6bd9c0566725fa315398d6db478013249 %}
+A toy package with some extensions and examples:  
 
-```r
-require(devtools)
-install_github('shinyExt','marcionicolau')
-
-require(shinyExt)
-``` 
-
-{% gist 4263949 %}
+{% gist 4263949 run_shinyExt.R %}
