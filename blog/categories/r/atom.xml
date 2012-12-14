@@ -4,7 +4,7 @@
   <title><![CDATA[Category: R | Rbr by examples]]></title>
   <link href="http://marcionicolau.github.com/Rbr-by-examples/blog/categories/r/atom.xml" rel="self"/>
   <link href="http://marcionicolau.github.com/Rbr-by-examples/"/>
-  <updated>2012-12-13T22:12:49-02:00</updated>
+  <updated>2012-12-13T22:32:03-02:00</updated>
   <id>http://marcionicolau.github.com/Rbr-by-examples/</id>
   <author>
     <name><![CDATA[Marcio Nicolau]]></name>
@@ -28,7 +28,19 @@
 
 <p>A toy package with some extensions and examples:</p>
 
-<p>Liquid error: GET https://api.github.com/repos/marcionicolau/shinyExt/git/blobs/4f89a7f6bd9c0566725fa315398d6db478013249: 404: Not Found</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='r'><span class='line'><span class="o">&lt;/</span>p<span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span>pre<span class="o">&gt;&lt;</span>code<span class="o">&gt;</span>Liquid error: GET https:<span class="o">//</span>api.github.com<span class="o">/</span>repos<span class="o">/</span>marcionicolau<span class="o">/</span>shinyExt<span class="o">/</span>git<span class="o">/</span>blobs<span class="o">/</span><span class="m">4</span>f89a7f6bd9c0566725fa315398d6db478013249: <span class="m">404</span>: Not Found
+</span><span class='line'><span class="o">&lt;/</span>code<span class="o">&gt;&lt;/</span>pre<span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span>p<span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>```r
 require(devtools)
@@ -37,11 +49,16 @@ install_github('shinyExt','marcionicolau')</p>
 <p>require(shinyExt)
 ```</p>
 
-<p><div><script src='https://gist.github.com/4263949.js?file='></script>
+<p>```r</p>
+
+<pre><code><div><script src='https://gist.github.com/4263949.js?file=run_shinyExt.R'></script>
 <noscript><pre><code>require(shinyExt)
 
 shiny::runApp(system.file('examples/experimenter',package='shinyExt'))</code></pre></noscript></div>
-</p>
+
+</code></pre>
+
+<p>```</p>
 ]]></content>
   </entry>
   
