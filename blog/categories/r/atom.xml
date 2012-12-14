@@ -4,7 +4,7 @@
   <title><![CDATA[Category: R | Rbr by examples]]></title>
   <link href="http://marcionicolau.github.com/Rbr-by-examples/blog/categories/r/atom.xml" rel="self"/>
   <link href="http://marcionicolau.github.com/Rbr-by-examples/"/>
-  <updated>2012-12-13T22:38:06-02:00</updated>
+  <updated>2012-12-13T22:50:01-02:00</updated>
   <id>http://marcionicolau.github.com/Rbr-by-examples/</id>
   <author>
     <name><![CDATA[Marcio Nicolau]]></name>
@@ -27,13 +27,6 @@
 <p><blockquote><p>Easy web applications in R</p></p><p><p>Shiny makes it super simple for R users like you to turn analyses into interactive web applications that anyone can use. Let your users choose input parameters using friendly controls like sliders, drop-downs, and text fields. Easily incorporate any number of outputs like plots, tables, and summaries.</p></p><p><p>No HTML or JavaScript knowledge is necessary. If you have some experience with R, you're just minutes away from combining the statistical power of R with the simplicity of a web page.</p><footer><strong>Source</strong> <cite><a href='http://www.rstudio.com/shiny/'>RStudio - Shiny</a></cite></footer></blockquote></p>
 
 <p>A toy package with some extensions and examples:</p>
-
-<p>```r
-require(devtools)
-install_github('shinyExt','marcionicolau')</p>
-
-<p>require(shinyExt)
-```</p>
 
 <p><div><script src='https://gist.github.com/4263949.js?file=run_shinyExt.R'></script>
 <noscript><pre><code>require(shinyExt)
