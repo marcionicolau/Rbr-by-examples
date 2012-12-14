@@ -1,0 +1,9 @@
+[submodule ".themes/darkstripes"]
+	path = .themes/darkstripes
+	url = https://github.com/amelandri/darkstripes.git
+[submodule ".themes/foxslide"]
+	path = .themes/foxslide
+	url = https://github.com/sevenadrian/foxslide.git
+[submodule ".themes/gold"]
+	path = .themes/gold
+	url = https://github.com/octopress-themes/gold.git
